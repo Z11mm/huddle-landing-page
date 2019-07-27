@@ -47,6 +47,7 @@ body {
     border-width: 5px;
 }
 
+/* HEADER LAYOUT */
 .top-of-page {
     background-image: url(images/bg-hero-desktop.svg);
     background-size: cover;
@@ -91,33 +92,30 @@ body {
     height: auto;
 }
 
+/* CARDS */
+.card-wrapper {
+    padding: 80px 0;
+}
 
-
-/* .card {
-    display: flex;
-    box-sizing: border-box;
-    position: absolute;
-    width: 70%;
-    top: 50%;
-    left: 50%;
-    background: #fff;
-    padding: 20px;
-} */
-
-
-/* .graphics-box {
-    position: relative;
-} */
-
-/* .card-layout {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-} */
-
-/* .graphics {
-    position: absolute;
-    width: 25%;
+.cardbox {
+    width: 90%;
     height: auto;
-    top: 25px; 
-} */
+    margin: 40px auto;
+    box-shadow: 0 0 30px #ccc;
+    border-radius: 12px;
+}
+
+.card {
+    display: flex;
+    padding: 70px;
+}
+
+.graphics {
+    width: 50%;
+    height: auto;
+}
+
+.graphics-box {
+    display: flex;
+    justify-content: center;
+}
